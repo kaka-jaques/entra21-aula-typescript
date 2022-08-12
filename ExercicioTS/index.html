@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Calculadora em TS</title>
+    <!-- CSS only -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous'>
+</head>
+
+<body class="container bg-info">
+
+    <header class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center" style="font-size: 190px; color: white; border-style: solid;">
+            TS
+        </div>
+    </header>
+    <br><br><br>
+    <main class="row">
+        <div class="card">
+            <div class="card-header">
+                <h2>CALCULADORA EM TS</h2>
+            </div>
+            <br>
+            <div class="card-body">
+                <div class="input-group" style="width: 30%;">
+                    <span class="input-group-text">A</span>
+                    <input class="form-control" type="number" name="numA" id="numA" placeholder="NúmeroA" value="">
+                </div>
+                <br>
+                <div class="input-group" style="width: 30%;">
+                    <span class="input-group-text">B</span>
+                    <input class="form-control" type="number" name="numB" id="numB" placeholder="NúmeroB" value="">
+                </div>
+                <br>
+                <div class="input-group" style="width: 30%;">
+                    <span class="input-group-text">R=</span>
+                    <input type="text" name="result" id="result" class="form-control">
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="button" value="Somar!" class="btn btn-outline-info" id="somar">
+                <input type="button" value="Subtrair!" class="btn btn-outline-danger" id="substrair">
+                <input type="button" value="Multiplicar!" class="btn btn-outline-primary" id="multiplicar">
+                <input type="button" value="Dividir!" class="btn btn-outline-warning" id="dividir">
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2'
+        crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='/js/script.js/'></script>
+</body>
+
+</html>
