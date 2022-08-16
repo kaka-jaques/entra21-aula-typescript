@@ -10,6 +10,6 @@ function dividir(numA, numB) {
 function multiplicar(numA, numB) {
     return numA * numB;
 }
-$("#somar").on("click", function () {
-    $("#result").attr("value", 123123);
-});
+function app() {
+    $("h3").append("R=" + 123);
+}
